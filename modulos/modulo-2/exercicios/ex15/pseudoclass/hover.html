@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID e Class</title>
+    <style>
+        #titulo{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000000;
+            color: white;
+            text-align: center;
+        }
+
+        body{
+            background-color: rgb(124, 98, 165);
+        }
+
+        p{
+            text-align: center;
+        }
+
+        .letra{
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            background-color: gray;
+            border: 1px solid black;
+            text-align: center;
+            margin-top: 4px;    
+        }
+
+        .letra:hover{
+            background-color: purple;
+        }
+
+        #texto > p{
+            display: none;
+        }
+
+        #texto:hover > p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="letra">A</div>
+    <div class="letra">B</div>
+    <div class="letra">C</div>
+    <div class="letra">D</div>
+    <div class="letra">E</div>
+    <div class="letra">F</div>
+
+    <div id="texto">
+        <h1>Passe o mouse e revele o texto</h1>
+        <p>Olá!</p>
+    </div>
+</body>
+</html>

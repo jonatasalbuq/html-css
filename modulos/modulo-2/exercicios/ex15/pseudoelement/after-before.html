@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elementos</title>
+    <style>
+        body{
+            font: normal 1.5em monospace;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a::before{
+            content: '> ';
+        }
+        a::after{
+            content: ' <';
+        }
+        .special{
+            background-color: darkred;
+            color: white;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>After e Before</h1>
+    <ul>
+        <li><a href="#">Olá, Mundo!</a></li>
+        <li><a href="#">Hola, Mundo!</a></li>
+        <li><a href="#" class="special">Hello, World!</a></li>
+    </ul>
+</body>
+</html>

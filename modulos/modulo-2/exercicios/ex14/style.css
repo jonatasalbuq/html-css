@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Seagrama';
+    src: url('fonts/Seagram tfb.ttf') format(truetype);
+}
+
+.serif{
+    font-family: serif;
+    font-size: 16px;
+}
+
+.noserif{
+    font-family: sans-serif;
+}
+
+.monospac{
+    font-family: monospace;
+    font-size: 1.25em;
+}
+
+.gfonts{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.style{
+    text-decoration: underline;
+}
+
+.ext{
+    font-family: Seagrama;
+}
